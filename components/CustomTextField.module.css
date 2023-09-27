@@ -1,0 +1,45 @@
+/* components/CustomTextField.module.css */
+.tag-input {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+  }
+  
+
+  
+  .tags-inside-input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .tag {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1;
+  }
+  
+  .suggestion {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Add more styles as needed */
+  
